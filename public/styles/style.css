@@ -23,8 +23,25 @@ body {
   align-items: center;
 }
 
+
+
+.logo{
+  height: 70px;
+  width: 70px;
+}
+
+.homediv{
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+}
+
 .homenav {
   font-size: 3rem;
+  box-sizing: border-box;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  margin-right: 2rem;
 }
 
 .listanav {
@@ -36,11 +53,12 @@ body {
 .menu {
   width: 50px;
   height: 50px;
-}
-.menu:hover{
-  background-color: blue;
   padding: 10px;
-  margin-left: 20px;
+}
+
+.menu:hover, .homediv:hover{
+  background-color: rgb(71, 71, 255);
+
 }
 
 .btnnav {
