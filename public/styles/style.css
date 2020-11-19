@@ -1,0 +1,72 @@
+:root {
+  font-size: 10px;
+}
+
+body {
+  font-family: "Noto Sans JP", sans-serif;
+  color: white;
+}
+
+.navbar {
+  background-color: #154360;
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+  padding-right: 50px;
+  padding-left: 50px;
+  box-sizing: border-box;
+  align-items: center;
+}
+
+.homenav {
+  font-size: 3rem;
+}
+
+.listanav {
+  list-style: none;
+  display: none;
+  font-size: 2rem;
+}
+
+.menu {
+  width: 50px;
+  height: 50px;
+}
+
+.btnnav{
+    padding-left: 10px;
+    padding-right: 10px;
+    box-sizing: border-box;
+}
+
+.btnnav:hover{
+  background-color: blue;
+}
+
+@media (min-width: 480px) {
+  .menu {
+    list-style: none;
+    display: none;
+  }
+
+  .listanav{
+      display: flex;
+      top: 0;
+      bottom: 0;
+      height: 100%;
+      align-items: center;
+  }
+
+}
+
+@media (min-width: 1024px) {
+    .menu {
+        list-style: none;
+        display: none;
+      }
+}
