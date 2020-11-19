@@ -37,14 +37,19 @@ body {
   width: 50px;
   height: 50px;
 }
-
-.btnnav{
-    padding-left: 10px;
-    padding-right: 10px;
-    box-sizing: border-box;
+.menu:hover{
+  background-color: blue;
+  padding: 10px;
+  margin-left: 20px;
 }
 
-.btnnav:hover{
+.btnnav {
+  padding-left: 10px;
+  padding-right: 10px;
+  box-sizing: border-box;
+}
+
+.btnnav:hover {
   background-color: blue;
 }
 
@@ -54,19 +59,22 @@ body {
     display: none;
   }
 
-  .listanav{
-      display: flex;
-      top: 0;
-      bottom: 0;
-      height: 100%;
-      align-items: center;
+  .listanav {
+    display: flex;
+    height: 80px;
+    align-items: center;
   }
 
+  .btnnav {
+    height: 70px;
+    display: flex;
+    align-items: center;
+  }
 }
 
 @media (min-width: 1024px) {
-    .menu {
-        list-style: none;
-        display: none;
-      }
+  .menu {
+    list-style: none;
+    display: none;
+  }
 }
