@@ -1,14 +1,18 @@
-import logo from './logo.svg';
+import logo from './inkode.png';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
+        <div>
         <img src={logo} className="App-logo" alt="logo" />
+        <img src={logo} className="App-logo1" alt="logo" />
+        </div>
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Futuramente Aqui estara inkodeapp.
         </p>
+        {/*
         <a
           className="App-link"
           href="https://reactjs.org"
@@ -16,7 +20,7 @@ function App() {
           rel="noopener noreferrer"
         >
           Learn React
-        </a>
+        </a>*/}
       </header>
     </div>
   );
