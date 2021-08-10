@@ -1,16 +1,17 @@
 import logo from './inkode.png';
 import './App.css';
+import Navbar from './components/Navbar';
 
 function App() {
   return (
     <div className="App">
+      <Navbar/>
       <header className="App-header">
         <div>
         <img src={logo} className="App-logo" alt="logo" />
-        <img src={logo} className="App-logo1" alt="logo" />
         </div>
         <p>
-          Futuramente Aqui estara inkodeapp.
+          Proximamente Nexo para Programadores.
         </p>
         {/*
         <a
