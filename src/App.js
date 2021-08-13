@@ -1,33 +1,19 @@
-import logo from './inkode.png';
-import './App.css';
-import Navbar from './components/Navbar';
-import Footer from './components/Footer';
-
-
+import "./App.css";
+import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
+import Container from "./components/Container";
 
 function App() {
   return (
     <div className="App">
-      <Navbar/>
+      <Navbar />
+      {/*
       <header className="App-header">
-        <div>
-        <img src={logo} className="App-logo" alt="logo" />
-        </div>
-        <p>
-          Proximamente Nexo para Programadores.
-        </p>
-        {/*
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>*/}
-      </header>
+      
+      </header>*/}
 
-      <Footer/>
+      <Container />
+      <Footer />
     </div>
   );
 }
